@@ -1,12 +1,14 @@
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/airbnb/javascript?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-# Airbnb JavaScript Style Guide() {
+# Animati JavaScript Style Guide() {
 
-*Uma boa abordagem para JavaScript*
+*Utilizado o [Style Guide do Airbnb](https://github.com/airbnb/javascript "Style Guide do Airbnb") como referência*
 
 
 ## <a name='table-of-contents'>Índice</a>
 
+
+  1. [Idioma](#idioma)
   1. [Tipos](#types)
   1. [Objetos](#objects)
   1. [Arrays](#arrays)
@@ -38,6 +40,50 @@
   1. [Converse conosco sobre Javascript](#chat-with-us-about-javascript)
   1. [Contribuidores](#contributors)
   1. [Licença](#license)
+
+## <a name='idioma'>Idioma</a>
+Utilizar como referência o idioma inglês para escrita do código fonte salve exceções.
+
+
+  - Variável
+
+    ```javascript
+    // ruim
+    var idadePaciente = 21;
+
+    // bom
+    var pacientAge = 21;
+    ```
+
+  - Métodos
+
+    ```javascript
+    // ruim
+    function buscarIdadePaciente() {
+      return 21;
+    }
+
+    // bom
+    function getPacientAge() {
+      return 21;
+    }
+    ```
+> **Obs:** Métodos devem representar uma ação (save, update, get, set, hasAge...)
+
+- Métodos 
+    ```javascript
+    // ruim
+    function age() {
+      return 21;
+    }
+
+    // bom
+    function getAge() {
+      return 21;
+    }
+    ```
+    
+    
 
 ## <a name='types'>Tipos</a>
 
@@ -724,7 +770,7 @@
 
 ## <a name='whitespace'>Espaços em branco</a>
 
-  - Use tabs com 2 espaços
+  - Use tabs com 2 espaços (CHECK>>>)
 
     ```javascript
     // ruim
