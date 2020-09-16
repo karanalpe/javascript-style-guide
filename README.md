@@ -55,7 +55,7 @@ Utilizar como referência o idioma inglês para escrita do código fonte salve e
     var pacientAge = 21;
     ```
 
-  - Métodos
+  - **Métodos**  
 
     ```javascript
     // ruim
@@ -68,9 +68,8 @@ Utilizar como referência o idioma inglês para escrita do código fonte salve e
       return 21;
     }
     ```
-> **Obs:** Métodos devem representar uma ação (save, update, get, set, hasAge...)
+  + `Métodos devem representar uma ação (save, update, get, set, hasAge...)`
 
-- Métodos 
     ```javascript
     // ruim
     function age() {
