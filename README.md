@@ -68,7 +68,7 @@ Utilizar como referência o idioma inglês para escrita do código fonte salve e
       return 21;
     }
     ```
-  + `Métodos devem representar uma ação (save, update, get, set, hasAge...)`
+    + `Métodos devem representar uma ação (save, update, get, set, hasAge...)`  
 
     ```javascript
     // ruim
