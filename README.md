@@ -84,8 +84,8 @@ Utilizar como referência o idioma inglês para escrita do código fonte salve e
 
 
   - **Comentários**
-  + `Lembre-se: "Um código bom, limpo e bem escrito não precisa de comentários" - Nick Hodges`
-  + `Mas... Existem as exceções e para esses casos utilizem o comentário na linguagem português`
+    + `Lembre-se: "Um código bom, limpo e bem escrito não precisa de comentários" - Nick Hodges`
+    + `Mas... Existem as exceções e para esses casos utilizem o comentário na linguagem português`
 
     ```javascript
     
